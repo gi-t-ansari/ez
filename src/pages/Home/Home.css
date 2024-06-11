@@ -1,0 +1,31 @@
+.home-container {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+}
+
+.main-logo-container {
+  height: 145px;
+  width: 517px;
+}
+
+.main-logo {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-heading {
+  font-size: 48px;
+  color: #112949;
+  font: normal;
+}
+
+.service-cards-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.main-description {
+  font-size: 32px;
+}
