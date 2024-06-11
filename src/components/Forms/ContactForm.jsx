@@ -22,7 +22,7 @@ const ContactForm = () => {
         setSubmissionMessage("");
       }, 3000);
     }
-  }, [submissionMessage]);
+  }, [loading]);
 
   const onSubmit = async (data) => {
     if (data) {
