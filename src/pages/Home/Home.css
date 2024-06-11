@@ -9,7 +9,6 @@
 }
 
 .main-logo-container {
-  height: 145px;
   width: 517px;
 }
 
@@ -36,6 +35,50 @@
   margin-top: 2rem;
 }
 
-.form-container {
+.form-container-pc {
   margin-top: 1rem;
+}
+
+.form-container-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .service-cards-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .home-container {
+    position: relative;
+  }
+  .main-logo-container {
+    width: 222px;
+    margin: 0 auto;
+  }
+
+  .home-sub-container {
+    text-align: center;
+  }
+
+  .main-heading {
+    font-size: 24px;
+  }
+
+  .main-description {
+    font-size: medium;
+  }
+
+  .form-container-pc {
+    display: none;
+  }
+
+  .form-container-mobile {
+    display: block;
+  }
 }

@@ -7,7 +7,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home-container">
-      <div>
+      <div className="home-sub-container">
         <div className="main-logo-container">
           <img src={mainLogo} className="main-logo" alt="main-logo" />
         </div>
@@ -17,7 +17,7 @@ const Home = () => {
           eiusmod tempor incididunt...Lorem <br /> ipsum dolor sit amet,
           consectetur adipiscing elit, sed
         </p>
-        <div className="form-container">
+        <div className="form-container-pc">
           <ContactForm />
         </div>
       </div>
@@ -31,6 +31,9 @@ const Home = () => {
             imgAlt={imgAlt}
           />
         ))}
+      </div>
+      <div className="form-container-mobile">
+        <ContactForm />
       </div>
     </div>
   );
