@@ -1,7 +1,11 @@
 .home-container {
   height: 100dvh;
   width: 100dvw;
+  padding: 12px;
   display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
 }
 
 .main-logo-container {
@@ -15,17 +19,23 @@
 }
 
 .main-heading {
-  font-size: 48px;
+  font-size: 28px;
   color: #112949;
   font: normal;
+  margin-top: 2rem;
 }
 
 .service-cards-container {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
 .main-description {
-  font-size: 32px;
+  font-size: 22px;
+  margin-top: 2rem;
+}
+
+.form-container {
+  margin-top: 1rem;
 }
